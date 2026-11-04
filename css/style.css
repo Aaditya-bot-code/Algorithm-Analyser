@@ -191,3 +191,30 @@ footer p{
 html{
     scroll-behavior: smooth;
 }
+#sorting-visualizer{
+    padding: 40px 20px;
+    text-align: center;
+}
+#sorting-visualizer h2{
+    margin-bottom: 15px;
+}
+#sorting-visualizer p{
+    margin-bottom: 25px;
+}
+.visualizer-container{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+#array-container{
+    min-height: 260px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+}
