@@ -218,3 +218,52 @@ html{
     justify-content: center;
     gap: 8px;
 }
+
+#generate-array{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+#generate-array:hover{
+    background-color: #1d4ed8;
+}
+#bubble-sort,
+#selection-sort,
+#insertion-sort{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+ 
+}
+#bubble-sort:hover,
+#selection-sort:hover,
+#insertion-sort:hover{
+    background-color: #15803d;
+}
+#bubble-sort:disabled,
+#selection-sort:disabled,
+#insertion-sort:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+#key-display {
+    margin-bottom: 15px;
+    padding: 8px 15px;
+    display: inline-block;
+    background-color: #facc15;
+    color: #000;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
